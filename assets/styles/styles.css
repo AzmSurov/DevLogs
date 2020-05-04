@@ -1,0 +1,63 @@
+html, body {
+  background: #f9f9f9;
+  font-family: 'Poppins', sans-serif;
+  color: #2a313b;
+}
+
+.jumbotron {
+  color: #f9f9f9;
+  background-color: #2a313b;
+  border-radius: none;
+}
+
+.jumbotron p {
+  font-weight: 450;
+}
+
+.jumbotron h1 {
+  font-weight: 800;
+}
+
+.btn {
+  background-color: #e1f5fe;
+  color: #0288d1;
+  padding: 10px 15px;
+  border-color: #e1f5fe;
+  font-weight: 500;
+}
+
+.btn:hover,
+.btn:focus {
+  -webkit-box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+          box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  -webkit-transform: translateY(-0.25em);
+          transform: translateY(-0.25em);
+  background: #ede7f6;
+  color: #311b92;
+  border-color: #311b92;
+}
+
+.coloredHr {
+  background: #673ab7;
+}
+
+.card {
+  background: #f9f9f9;
+}
+
+.card p {
+  color: #2a313b;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2a313b;
+  color: #f9f9f9;
+  text-align: center;
+  padding-bottom: 0.5%;
+  padding-top: 0.5%;
+}
+/*# sourceMappingURL=styles.css.map */

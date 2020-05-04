@@ -1,0 +1,65 @@
+$main: #2a313b;
+$main-background:#f9f9f9;
+
+html, body {
+    background: $main-background;
+    font-family: 'Poppins', sans-serif;
+    color: $main;
+}
+
+.jumbotron {
+    color:$main-background;
+    background-color: $main;
+    border-radius: none;
+    p{
+        font-weight: 450;
+    }
+
+    h1{
+        font-weight: 800;
+    }
+    
+}
+
+.btn {
+    background-color: #e1f5fe;
+    color: #0288d1;
+    padding: 10px 15px;
+    border-color: #e1f5fe;
+}
+
+
+
+.btn:hover,
+.btn:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+  background:#ede7f6;
+    color: #311b92;
+    border-color: #311b92;
+}
+
+.coloredHr{
+    background: #673ab7;
+}
+
+.card{
+    background: $main-background;
+    p{
+        color:$main;
+    }
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:$main;
+    color: $main-background;
+    text-align: center;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+  }
+
+
