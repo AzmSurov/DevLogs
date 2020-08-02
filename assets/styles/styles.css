@@ -7,6 +7,7 @@
 
 body {
   padding: 100px 0;
+  background: #2E2F40;
 }
 
 img {
@@ -17,6 +18,11 @@ img {
 .head {
   text-align: center;
   font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+
+.head h1 {
+  color: #EF4B3F;
 }
 
 .blog-item img {
@@ -34,7 +40,7 @@ img {
           align-items: center;
   max-width: 1000px;
   margin: auto;
-  color: #333;
+  color: #fff;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   border-radius: 6px;
@@ -69,7 +75,7 @@ img {
 .blog-item .content .title {
   font-size: 21px;
   text-transform: capitalize;
-  color: #25aae1;
+  color: #EF4B3F;
   font-weight: 600;
   font-family: 'Lato', sans-serif;
 }
@@ -77,13 +83,13 @@ img {
 .blog-item .content .title .blog-date {
   font-size: 12px;
   margin-left: 20px;
-  color: #333;
+  color: #fff;
   font-family: 'Lato', sans-serif;
 }
 
 .blog-item .content .title .blog-date:before {
   content: '/';
-  color: #2bb673;
+  color: #860255;
   font-size: 25px;
   top: auto;
   position: relative;
@@ -109,7 +115,7 @@ img {
 
 .blog-item a:hover > .item-arrow {
   /*padding-left: 40px;*/
-  color: #25aae1;
+  color: #860255;
   left: 30px;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
@@ -119,8 +125,8 @@ img {
   width: 70px;
   height: 5px;
   border-radius: 6px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#25aae1), to(#40e495));
-  background-image: linear-gradient(to right, #25aae1, #40e495);
+  background-image: -webkit-gradient(linear, left top, right top, from(#860255), to(#EF4B3F));
+  background-image: linear-gradient(to right, #860255, #EF4B3F);
   /* background: #2bb769; */
   margin-left: 0;
   margin-top: 10px;
