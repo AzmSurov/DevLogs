@@ -5,4 +5,4 @@ Welcome to Azm's Dev Logs! With my inspiration master Fron-End Development, I de
 This way I'll have the practice and also showcase what I'll be coding the next 100 days. I'll be adding a new project everyday!
 This site is build using HTML, SCSS and JavaScript.
 
-### azmsurov.github.io/devlogs/
+### https://azmsurov.github.io/devlogs/
